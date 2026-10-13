@@ -58,3 +58,41 @@ article p{
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+.btn a{
+
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--menu-color);
+    padding: 10px 10px;
+    margin:auto 20px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.contenido2{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(193, 193, 193, 0.899);
+    padding: 80px;
+    margin: 100px;
+}
+
+.parrafo{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.Parrafo h2{
+     font-size: 40px;
+     font-weight: 600;
+     color:#E9AA0C;
+     
+}
+
+.Parrafo a{
+    text-decoration:none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
