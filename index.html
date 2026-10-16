@@ -4,58 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Happiness</title>
-    <link rel="stylesheet" href="./style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
+    
     <nav>
         <div class="menu">
             <div class="logo">
-                <img src="./assets/logo.png" alt="Logo">
+                <img src="./assets/logo.png" alt="The Happy Stats">
             </div>
+
+            <input type="checkbox" id="toggle-menu" class="toggle-menu">
+            <label for="toggle-menu" class="hamburguesa" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </label>
+
             <div class="navegacion">
-            <a href="#">Happiness</a>
-            <a href="#">Books</a>
-            <a href="#">About us</a>
-            <a href="#">Contact</a>
+                <a href="#happiness">Happiness</a>
+                <a href="#books">Books</a>
+                <a href="#about">About us</a>
+                <a href="#contact">Contact</a>
             </div>
-            
         </div>
     </nav>
 
     <main>
-        <div class="contenido1">
-            <img src="./assets/img01.png" alt="Imagen 1">
+        <section class="contenido1">
+            <img src="./assets/img01.png" alt="Equipo sonriendo frente a un portátil">
             <article>
                 <h1>HOW HAPPY <br> ARE YOU?</h1>
-               <br> 
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Voluptas in eligendi ad illum, 
-                maiores reprehenderit error <br> veritatis, optio repudiandae aperiam, 
-                tenetur labore quae molestias <br> sit fuga rerum tempore distinctio ducimus?  </p> 
-                <br><br>         
-           <div class="btn">
-                <a href="#">Read more</a>
-            </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                <div class="btn">
+                    <a href="#">Read more</a>
+                </div>
             </article>
-            
-            </div>
-           <br><br>
+        </section>
+
+        <section class="franja" id="happiness">
             <div class="contenido2">
-                <br>
-               <div class="Parrafo">
-                <h2>HAPPINESS <br> IN NUMBERS</h2>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur  <br>
-                    Natus velit labore earum.Et quod consectetur <br>
-                    accusamus accusantium  perspiciatis dolor </p>
-                <br>
-                <a href="#">Read more ></a>
-                </div> 
-                <img src="./assets/graph01.png" alt="Imagen 2">
-                <img src="./assets/graph02.png" alt="Imagen 3">
+                <div class="Parrafo">
+                    <h2>HAPPINESS <br> IN NUMBERS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                    <a href="#">Read more &gt;</a>
+                </div>
+                <img src="./assets/graph01.png" alt="Gráfico circular de felicidad">
+                <img src="./assets/graph02.png" alt="Indicador del 35%">
             </div>
-    </main>
+        </section>
+
+        <section class="contenido3">
+            <div class="parrafo2">
+                <h2>WE CAN HELP YOU <br> TO BE HAPPY</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel</p>
+                <div class="btn2">
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <img src="./assets/img02.png" alt="Equipo juntando las manos">
+        </section>
+
+  
+        <section class="contenido4">
+            <div class="tarjeta">
+                <img class="tarjeta-img" src="./assets/img03.png" alt="Pareja de colegas dándose la mano">
+                <div class="tarjeta-texto">
+                    <h2>% HAPPINESS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas</p>
+                    <div class="btn3">
+                        <a href="#">Read More</a>
+                    </div>
+                    <img class="tarjeta-grafico" src="./assets/graph01.png" alt="Gráfico circular de felicidad">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>ABOUT US</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <img src="./assets/img04.png" alt="Equipo trabajando junto">
+            <div class="btn">
+                <a href="#">Read More</a>
+            </div>
+        </section>
+
+        <section class="team" id="books">
+            <img src="./assets/img05.png" alt="Nuestro equipo">
+            <article>
+                <h2>OUR TEAM</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo</p>
+                <div class="btn">
+                    <a href="#">Read more</a>
+                </div>
+            </article>
+        </section>
+
+      
+        <section class="method">
+            <article>
+                <h2>TRY OUR METHOD <br> FOR FREE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                <div class="btn2">
+                    <a href="#">Read more</a>
+                </div>
+            </article>
+            <img src="./assets/img06.png" alt="Dos colegas dándose la mano">
+        </section>
+
     
+        <section class="formulario">
+            <form class="form-caja" action="#" method="post">
+                <div class="fila">
+                    <div class="campo">
+                        <label for="nombre">Name</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="apellido">Surname</label>
+                        <input type="text" id="apellido" name="apellido">
+                    </div>
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="campo">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Message</label>
+                    <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+                </div>
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</small>
+            </form>
+
+            <div class="newsletter">
+                <h2>SUBSCRIBE TO <br> OUR NEWSLETTER</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                <div class="btn3">
+                    <button type="button">Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>CONTACT</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <div class="mapa">
+                <img src="./assets/map.png" alt="Mapa de ubicación">
+            </div>
+            <div class="btn3">
+                <a href="#">Contact</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <img src="./assets/logoWhite.png" alt="The Happy Stats" class="footer-logo">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#happiness">Happiness</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Policy Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>Copyright | YourName</span>
+            <div class="redes">
+                <a href="#" aria-label="Instagram"><img src="./assets/Instagram.png" alt="Instagram"></a>
+                <a href="#" aria-label="Facebook"><img src="./assets/Facebook.png" alt="Facebook"></a>
+                <a href="#" aria-label="Twitter"><img src="./assets/Twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
